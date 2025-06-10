@@ -19,7 +19,7 @@ module.exports = {
                     .setDescription("Hubo un error al ejecutar este comando!")
                     .setColor("Red")
                 ],
-                ephemeral: true
+                flags: 1 << 6,
             });
         }
     }
